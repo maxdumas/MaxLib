@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibMax", "MaxLib\LibMax.csproj", "{4A919F35-EFD7-4778-85A7-FD32399DD6FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxLibTests", "Tests\MaxLibTests\MaxLibTests\MaxLibTests.csproj", "{4A31CEB3-24EC-4FE1-82E1-491188C1B05A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4A919F35-EFD7-4778-85A7-FD32399DD6FE} = {4A919F35-EFD7-4778-85A7-FD32399DD6FE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxLibTestsContent", "Tests\MaxLibTests\MaxLibTestsContent\MaxLibTestsContent.contentproj", "{593C5ADC-FA63-4DB5-8919-4EE4BC882AB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A919F35-EFD7-4778-85A7-FD32399DD6FE}.Debug|x86.ActiveCfg = Debug|x86
+		{4A919F35-EFD7-4778-85A7-FD32399DD6FE}.Debug|x86.Build.0 = Debug|x86
+		{4A919F35-EFD7-4778-85A7-FD32399DD6FE}.Release|x86.ActiveCfg = Release|x86
+		{4A919F35-EFD7-4778-85A7-FD32399DD6FE}.Release|x86.Build.0 = Release|x86
+		{4A31CEB3-24EC-4FE1-82E1-491188C1B05A}.Debug|x86.ActiveCfg = Debug|x86
+		{4A31CEB3-24EC-4FE1-82E1-491188C1B05A}.Debug|x86.Build.0 = Debug|x86
+		{4A31CEB3-24EC-4FE1-82E1-491188C1B05A}.Release|x86.ActiveCfg = Release|x86
+		{4A31CEB3-24EC-4FE1-82E1-491188C1B05A}.Release|x86.Build.0 = Release|x86
+		{593C5ADC-FA63-4DB5-8919-4EE4BC882AB7}.Debug|x86.ActiveCfg = Debug|x86
+		{593C5ADC-FA63-4DB5-8919-4EE4BC882AB7}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
